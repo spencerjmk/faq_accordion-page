@@ -1,0 +1,104 @@
+/* NAME: BAKARE AWAWU (JMK) */
+/* PROJECT: ORDER SUMMARY */
+/* DATE: 11/12/2024 */
+
+
+body{
+  margin: 0;
+  padding: o;
+  width: 100%;
+  background-color: hsl(277, 70%, 94%);
+  background-image: url(../images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+  color: hsl(275, 100%, 97%);
+
+}
+.container{
+  background-color: hsl(0, 0%, 100%);
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+.header{
+  display: flex;
+}
+.header img{
+  width: 20px;
+}
+.header h1{
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+}
+
+.visible{
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+p{
+  font-size: 12px;
+  color: hsl(292, 42%, 14%);
+}
+.hide{
+  display: none;
+}
+
+@media only screen and (min-width: 1440px){
+  body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: hsl(277, 70%, 94%);
+    background-image: url(../images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .container{
+    background-color: hsl(0, 0%, 100%);
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+  }
+
+  .header{
+    display: flex;
+  }
+  .header img{
+    width: 30px;
+  }
+  .header h1{
+    font-size: 39px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+  }
+  
+  .visible{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  p{
+    font-size: 22px;
+    color: hsl(292, 42%, 14%);
+  }
+  .hide {
+    display: none;
+    
+  }
+  
+}
