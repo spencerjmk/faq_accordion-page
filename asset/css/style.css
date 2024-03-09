@@ -44,6 +44,10 @@ hr{
   display: flex;
   justify-content: space-between;
 }
+
+.visible > img:hover{
+  cursor: pointer;
+}
 p{
   font-size: 12px;
   color: hsl(292, 42%, 14%);
